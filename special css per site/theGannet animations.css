@@ -1,0 +1,44 @@
+/* bite animation*/
+.pageboxtest2:hover::before{
+	content: url(https://thegannet.com/wp-content/uploads/2022/08/bitemark.png);
+	position:absolute;
+	z-index:4;
+	right:4%;
+	top:5%;
+	zoom:110%;
+}
+
+.blogpostbox:hover::before{
+		content: url(https://thegannet.com/wp-content/uploads/2022/08/bitemark.png);
+	position:absolute;
+	z-index:4;
+	right:0%;
+	top:0%;
+	zoom:110%;
+}
+.pageboxtest2:hover,.blogpostbox:hover{
+		animation: shake 0.5s;
+  animation-iteration-count: .3;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-2deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+
+}
+
+@media screen and (max-width : 768px){.pageboxtest2:hover::before,.pageboxtest2:hover,.blogpostbox:hover,.blogpostbox:hover::before{
+		content:none;
+		animation: none;
+	}
+	#pic1 span, #pic2 span {
+		height:0%;
+	}
+	#button1 {
+		margin-top: -50px !important;
+	}
+	#pic1 > span {
+		margin-bottom:-20px;
+	}
+} 

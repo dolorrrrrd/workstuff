@@ -1,0 +1,61 @@
+/* wp forms */
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100%;
+}
+
+.wpforms-form {
+	background: #4f4f4f;
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+	color: #fff;    
+	max-width: 100%;
+}
+
+/* sidebar */
+.wp-block-latest-posts__list li a {
+	font-size: 18px !important;
+	color:  #333333;	
+}
+
+.wp-block-latest-posts__list li {
+		line-height: 28px;
+	padding: 15px;
+}
+
+.wp-block-latest-posts__list li:hover {
+	background-color:#4f4f4f;
+}
+
+.wp-block-latest-posts__list li:hover a {
+	color: white;
+}
+
+
+
+
+/* about us paragraphs */
+#tve_editor > div:nth-child(2) > div.tve-page-section-in.tve_empty_dropzone > div.thrv_wrapper.thrv_text_element{
+	margin-top:-40px;
+}
+
+/* menu item hover */
+.menu-item> a:hover{
+	background-color: #4f4f4f;
+	color:white;
+}
+
+/*main banner margin*/
+.ast-plain-container.ast-no-sidebar #primary {
+    margin: 0;
+}
+#colophon > div > div > div.ast-builder-footer-grid-columns.site-below-footer-inner-wrap.ast-builder-grid-row > div > div > div > p:nth-child(2) {
+	width:70%;
+	margin: 5px auto;
+}
+
+.ast-footer-copyright p {
+		width: 70% !important;
+    margin: 10px auto -20px !important;
+}
+	

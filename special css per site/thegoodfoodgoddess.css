@@ -1,0 +1,17 @@
+a:not(.custom-logo-link){
+  background: 
+    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(136, 187, 60, 0.5), rgba(136, 187, 60, 0.5));
+  background-size: 0% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover{
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+.ast-plain-container.ast-no-sidebar #primary {
+    margin: 0;
+}
